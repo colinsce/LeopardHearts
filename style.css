@@ -1,0 +1,98 @@
+/*
+Theme Name: Asteria child
+Description: Asteria PRO is a clean responsive theme with 3 beautiful sliders, Narrow and Wide Layout Option, 10 Social Icons and 4 page templates, custom backgrounds per page, custom header per page and Unlimited Fonts. The theme also allows you to design your site logo with 500+ fonts or upload your own image logo. The theme also comes with 29 shortcodes and 15 widgets and Import/Export Options. The Theme also has a Maintenance Mode feature, Custom CSS feature and is fully compatible with Woocommerce and Contact Form 7 Plugin.  It also comes with Ajax pagination feature which means you can navigate posts without page refresh. The theme is SEO Friendly and has plenty of user-friendly options. The theme is translation ready and fully translated into French, Italian, German, Spanish, and Chinese.
+Asteria Lite is suitable for any types of website - corporate, portfolio, business, blog. Get Free Support without registration on http://www.towfiqi.com/forums/forum/asteria-pro
+Version: 0.6
+Theme URI: http://www.towfiqi.com/asteria-pro-wordpress-theme.html
+Author: Colin M Lewis.
+Author URI: http://www.stellacadenteentertainment.com
+Version:     1.0.0
+Template:    asteria
+Text Domain: asteria-child
+License: GNU General Public License, v2 (or newer)
+License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+Tags: theme-options, one-column, dark, blue, red, white, right-sidebar, left-sidebar
+*/
+
+ @import url("../asteria/style.css");
+ /*Nav*/
+.menu-header li { width:107px;}
+#topmenu ul li{margin-left:0px;text-align:center;}
+.menu-header li a{ text-align: center; }
+.menu-item {
+    background-image: url("img/heart.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-transition:all 0.2s ease-out;
+    transition: all 0.2s ease-out 0s;
+    background-size: 27px;
+}
+
+.menu-item:hover {
+    background-size:107px;
+}
+
+
+.header .head_soc{ position:absolute;right: 0; bottom:0px;z-index: 9999;background: url(images/submenu.png) repeat; cursor:pointer;}
+.head_soc a{display: inline-block;margin-left: 10px;width: 32px;height: 30px;padding: 2px 4px;text-align: center;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;transition:all 0.2s ease-out; color:#ccc;}
+.head_soc a:hover{ color:#fff!important;}
+#copyright{width:100%; padding:25px 0; float:none; color:#aaa;}
+.copytext{ float:none;}
+.fixed_site{width:95%;}
+em{padding-right:8px;}
+
+
+.imgwrap{
+min-height:270px!important;
+-webkit-border-radius:50%;
+-moz-border-radius:50%;
+border-radius:50%;
+z-index: 1000
+}
+
+.lay2, .lay1 {
+   margin-top: -5.500em; 
+   z-index:100;
+}
+
+.center{
+width:95%;
+}
+.comments_template {
+display: none;
+}
+.banner .sld_layout2 h3, .banner .sld_layout3 h3{ display:none;}
+.soc_big {
+font-size:30px;
+}
+
+.logoimga img{ max-height: 150px;}
+
+.header{margin-bottom: 1px; margin-top: 1px;}
+#topmenu{margin-top: 0px;}
+
+@media screen and (max-width: 1258px){
+.menu-header li { width:80px;}
+.menu-item:hover {background-size: 80px;}
+
+}
+
+@media screen and (max-width:1060px){
+#topmenu{display: none;}
+#simple-menu{display: block;float: right;background:rgba(0, 0, 0, 0.5);padding: 15px 20px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;margin-top: 1.5%;}
+.pad_menutitle{padding: 5%;width: 90%;background: #2dcb73;}
+.pad_menutitle span{display: inline-block;float: right; cursor:pointer;}
+
+}
+
+@media screen and (max-width: 768px){
+	.lay2 .hentry{width: 46%!important;height: 350px!important;}
+}
+
+@media screen and (max-width: 556px){
+	.head_soc{display:none;}
+	.lay2, .lay1 {   margin-top: -2.500em;}
+	#simple-menu{width: 90%;padding: 5%;margin-bottom: 20px; text-align:center; float:left;}
+}
+
+.banner .h3 { display:none;}
