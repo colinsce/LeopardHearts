@@ -33,7 +33,7 @@ Tags: theme-options, one-column, dark, blue, red, white, right-sidebar, left-sid
 }
 
 
-.header .head_soc{ position:absolute;right: 0; bottom:0px;z-index: 998;background: url(images/submenu.png) repeat; cursor:pointer;}
+.header .head_soc{ position:absolute;right: 0; bottom:0px;z-index: 997;background: url(images/submenu.png) repeat; cursor:pointer;}
 .head_soc a{display: inline-block;margin-left: 10px;width: 32px;height: 30px;padding: 2px 4px;text-align: center;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;transition:all 0.2s ease-out; color:#ccc;}
 .head_soc a:hover{ color:#fff!important;}
 #copyright{width:100%; padding:25px 0; float:none; color:#aaa;}
@@ -47,7 +47,7 @@ min-height:270px!important;
 -webkit-border-radius:50%;
 -moz-border-radius:50%;
 border-radius:50%;
-z-index: 997
+z-index: 996;
 }
 
 .lay2, .lay1 {
@@ -94,5 +94,5 @@ font-size:30px;
 	.lay2, .lay1 {   margin-top: -2.500em;}
 	#simple-menu{width: 90%;padding: 5%;margin-bottom: 20px; text-align:center; float:left;}
 }
-
+.postitle { color:#551a8b;}
 .banner .h3 { display:none;}
